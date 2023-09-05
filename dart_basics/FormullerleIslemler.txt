@@ -1,0 +1,25 @@
+void main() {
+  //Daire alanı:
+  final pi = 3.14;
+  var r = 2.0;
+  var alan = pi * r * r;
+  print("Daire alanı: $alan");
+  //Çıktı: Daire alanı: 12.56
+
+  //F = m * a
+  double m = 12.4;
+  double a = 10.0;
+  var f = m * a;
+  print("Kuvvet: $f");
+  //Çıktı: Kuvvet: 124.0
+
+  //Formül1 ve Formül2:
+  double v = 12.7;
+  double v0 = 23.56;
+  double t = 3.5;
+
+  double formul1 = ((v+v0)/2)*t;
+  double formul2 = v0*t + ((a*t*t)/2);
+  print("Formül1: $formul1, Formül2: $formul2");
+  //Çıktı: Formül1: 63.455, Formül2: 143.70999999999998
+}

@@ -1,0 +1,12 @@
+//Bir öğrencinin adını, yaşını, boyunu ve adının baş harfinin tutulduğu değişkenleri oluşturunuz.
+void main() {
+  var ogrenciAdi = "Oğuz";
+  var ogrenciYasi = 25;
+  var ogrenciBoyu = 1.73;
+  var ogrenciAdiBasHarfi = "O";
+
+  print(ogrenciAdi);
+  print(ogrenciYasi);
+  print(ogrenciBoyu);
+  print(ogrenciAdiBasHarfi);
+}

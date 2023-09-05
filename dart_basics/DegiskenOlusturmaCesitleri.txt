@@ -1,0 +1,42 @@
+void main() {
+  //Örnek 1:
+  var sayi = 10;
+  int numara = 88;
+
+  //Örnek2:
+  var fiyat = 12.99;
+  double ucret = 23.59;
+
+  print("Fiyat: $fiyat, Ücret: $ucret");
+  //Çıktı: Fiyat: 12.99, Ücret: 23.59
+
+  fiyat = 67.99;
+  ucret = 10.45;
+  print("Fiyat: $fiyat, Ücret: $ucret");
+  //Çıktı: Fiyat: 67.99, Ücret: 10.45
+
+  //Örnek3:
+  var sayi1 = 10;
+  int sayi2 = 20;
+
+  var toplam = sayi1 + 50;
+  int carpma = sayi1 * sayi2;
+  print("Toplam: $toplam, Çarpma: $carpma");
+  //Çıktı: Toplam: 60, Çarpma: 200
+
+  //Örnek4:
+  var sonuc1;
+  int sonuc2;
+
+  sonuc1 = 100;
+  sonuc2 = 90;
+  print("Sonuç1: $sonuc1, Sonuç2: $sonuc2");
+  //Çıktı: Sonuç1: 100, Sonuç2: 90
+
+  //Örnek5:
+  var s1, s2=20, s3;
+  s1 = 10;
+  s3 = 30;
+  print("$s1, $s2, $s3");
+  //Çıktı: 10, 20, 30
+}
